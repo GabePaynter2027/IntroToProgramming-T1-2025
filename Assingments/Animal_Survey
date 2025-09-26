@@ -1,10 +1,3 @@
-first_name = "Gabe"
-last_name = "Paynter"
-print("Hello, " + first_name + " " + last_name + "!")
-
-name = "Gabe"
-age = 16
-
 favorite_animal = input("What is your favorite animal?")
 why_like = input("Why do you like them?")
 where_live = input("Where do they live?")
