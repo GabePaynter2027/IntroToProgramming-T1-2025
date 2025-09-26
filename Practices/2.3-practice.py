@@ -9,10 +9,25 @@
 
 x=10
 
-print(x)
-
 x = 10
 y = 50
 potato = 7
 
-print(potato + x)
+
+
+lowercase = True
+UPPERCASE = True
+camelCase = True
+UpperCamelCase = True #All lowercase, no spaces, capital for new words
+LowerCamelCase = True #All lowercase, no spaces, capital for new words
+snake_case = True     #All lowercase, underscores for spaces
+SCREAMING_SNAKE_CASE = False
+
+# Other general rules for naming things
+# 1. Concise
+
+num = input("What number do you want to square?\n>")
+
+num = int(num)
+
+print(num * num)
